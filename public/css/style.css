@@ -1,0 +1,43 @@
+.edit    { display: none; }
+.noEdit  { display: initial; }
+tr.editing .edit    { display: initial; }
+tr.editing .noEdit  { display: none; }
+th{cursor:pointer;color:#000000;    padding:0.1rem 0.25rem;
+    border-radius:0.25rem;
+}
+
+.meldung   { font-weight:700; }
+
+.meldung--kritisch {
+    background:#ea6370;
+    color:#000000;
+    padding:0.1rem 0.25rem;
+    border-radius:0.25rem;
+}
+
+.floating-action-box {
+  position: absolute;
+  background: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px #0002;
+  padding: 14px 20px 14px 20px;
+  min-width: 220px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
+  transition: box-shadow 0.15s;
+  border: 1px solid #ccc;
+  /* Responsive fallback: */
+  max-width: 90vw;
+}
+.floating-action-box .close-actions-btn {
+  margin-left: auto;
+  font-size: 1.1em;
+  color: #888;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 5px;
+}

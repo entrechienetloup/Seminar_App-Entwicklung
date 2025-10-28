@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* Make the sections pop a bit */
+.bg-light {
+  background-color: #f9f9fb !important;
+}
+
+h5, h6 {
+  color: #1d2b53;
+}
+
+.border-start {
+  border-left: 2px solid #004f6e !important;
+}
+
+.fahrzeuge-item:hover {
+  background-color: #005ccc;
+  cursor: pointer;
+}
+
+#nav-profil{
+  color: #3ea714 !important;
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.b-example-divider {
+  flex-shrink: 0;
+  width: 0.5rem;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
